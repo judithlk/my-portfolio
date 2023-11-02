@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Ubuntu:wght@300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lumanosimo&family=Ubuntu:wght@300;500&display=swap');
+
+/* @import url('fonts/Lato-Black.ttf'); */
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* background-color: #46244C; */
+}
+
+h1 {
+    font-weight:bolder;
+    font-size: 12vw;
+    font-family: 'Kalam', cursive;
+    /* color: #87556F; */
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 7vw;
+    font-family: 'Kalam', cursive;
+    /* color: #87556F; */
+}
+
+.navbar {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.nav-link {
+    color: black;
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #87556F;
+}
+
+.active {
+    color: grey;
+}
+
+.wrapper {
+    margin-top: 4vh;
+    /* background-color: #d6b0d6; */
+    padding: 2%;
+}
+
+.left-side-top {
+    padding: 2% 2%;
+    height: max-content;
+}
+
+.standard-text {
+    color: rgb(68, 67, 67);
+    /* color: black; */
+    font-size: 1rem;
+}
+
+.typed-text, .sub-head {
+    font-family: 'Kalam', cursive;
+}
+
+.header-small-text {
+    color: rgb(68, 67, 67);
+    font-size: 1.8rem;
+}
+
+.sub-head {
+    color: #C74B50;
+    /* color: grey; */
+    font-size: 2em;
+}
+
+.inner-link {
+    text-decoration: none;
+    color: #712B75;
+    /* color: #C74B50; */
+    font-weight: bold;
+}
+
+.inner-link:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.label {
+    background-color: #87556F;
+    /* background-color: grey; */
+    font-size: 0.7rem;
+    padding: 1% 2%;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.label:hover {
+    background-color: #D49B54;
+    color: #46244C;
+}
+
+@media screen and (min-width: 380px) {
+    .nav-link {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .nav-link {
+        font-size: 3vw;
+    }
+
+    .left-side-top {
+        padding: 7% 2%;
+    }
+
+    .standard-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    h2 {
+        font-size: 4vw;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .standard-text {
+        font-size: 1.4rem;
+    }
+}
+
+
