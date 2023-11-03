@@ -1,5 +1,3 @@
-
-
 //light mode colors
 var bgLight = "white";
 var linkLight = "#712B75";
