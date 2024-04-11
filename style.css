@@ -88,6 +88,13 @@ h2 {
     text-decoration: underline;
 }
 
+.tool-text {
+    font-size: 1.4rem;
+    padding: 0 2%;
+    margin: 2%;
+    min-width: 130px;
+}
+
 .label {
     background-color: #87556F;
     /* background-color: grey; */
