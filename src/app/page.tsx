@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           <div className="">
             <p className={`text-[1.1rem] sm:text-[1.2rem] font-[400] text-[#222] ${tenor.className}`}>
-              I'm a passionate software engineer with a creative edge,
+              I{"'"}m a passionate software engineer with a creative edge,
               constantly fueled by the desire to learn and grow in the
               ever-evolving digital world.
             </p>
