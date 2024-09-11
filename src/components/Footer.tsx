@@ -1,30 +1,16 @@
 import Link from "next/link";
 
-import { Averia_Serif_Libre, Tenor_Sans, Cardo } from 'next/font/google'
+import { Cardo } from 'next/font/google'
 
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
-
-const averiaserif = Averia_Serif_Libre({
-  subsets: ['latin'], // Optional: define subsets
-  weight: ['400'], // Optional: define the weight
-});
-
-const tenor = Tenor_Sans({
-  subsets: ['latin'], // Optional: define subsets
-  weight: ['400'], // Optional: define the weight
-});
 
 const cardo = Cardo({
   subsets: ['latin'], // Optional: define subsets
   weight: ['400'], // Optional: define the weight
 });
 
-export default function Footer({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function Footer() {
   return (
     <div className="flex justify-end space-x-4 px-20 p-5">
         <div className="flex items-center">

@@ -3,9 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from 'react';
 
-import { motion, AnimatePresence } from "framer-motion";
-
-import { BounceLoader } from "react-spinners";
+import { motion } from "framer-motion";
 
 export default function Wrapper({
   children,

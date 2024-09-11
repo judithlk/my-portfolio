@@ -3,12 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
-import { Averia_Serif_Libre, Tenor_Sans, Cardo } from "next/font/google";
-
-const averiaserif = Averia_Serif_Libre({
-  subsets: ["latin"], // Optional: define subsets
-  weight: ["400"], // Optional: define the weight
-});
+import { Tenor_Sans, Cardo } from "next/font/google";
 
 const tenor = Tenor_Sans({
   subsets: ["latin"], // Optional: define subsets
@@ -22,7 +17,6 @@ const cardo = Cardo({
 
 export default function Navigation() {
   const pathName = usePathname();
-  const router = useRouter();
 
   return (
     <div className="w-[100%] sm:flex justify-between items-center px-20 py-3 space-y-8">

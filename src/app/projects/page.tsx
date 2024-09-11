@@ -4,14 +4,9 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 
-import { Averia_Serif_Libre, Tenor_Sans, Cardo } from "next/font/google";
+import { Tenor_Sans, Cardo } from "next/font/google";
 
 import { RxExternalLink } from "react-icons/rx";
-
-const averiaserif = Averia_Serif_Libre({
-  subsets: ["latin"], // Optional: define subsets
-  weight: ["400"], // Optional: define the weight
-});
 
 const tenor = Tenor_Sans({
   subsets: ["latin"], // Optional: define subsets
@@ -136,7 +131,7 @@ export default function Projects() {
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    View photos from NASA's Mars rovers.{" "}
+                    View photos from NASA{"'"}s Mars rovers.{" "}
                     <b>NextJS. Tailwind CSS. TypeScript</b>
                   </p>
 

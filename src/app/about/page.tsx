@@ -1,15 +1,8 @@
 "use client"
 
-import Link from "next/link";
-
-import { Averia_Serif_Libre, Tenor_Sans, Cardo } from "next/font/google";
+import { Tenor_Sans, Cardo } from "next/font/google";
 
 import { motion } from "framer-motion"
-
-const averiaserif = Averia_Serif_Libre({
-  subsets: ["latin"], // Optional: define subsets
-  weight: ["400"], // Optional: define the weight
-});
 
 const tenor = Tenor_Sans({
   subsets: ["latin"], // Optional: define subsets
