@@ -19,7 +19,7 @@ const cardo = Cardo({
 export default function Home() {
   return (
     <>
-      <motion.div className="w-[80%] sm:w-[70%] m-auto p-10 space-y-8"
+      <motion.div className="w-[80%] sm:w-[70%] my-20 sm:my-auto m-auto pt-0 p-5 space-y-"
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{

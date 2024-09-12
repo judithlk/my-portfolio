@@ -17,7 +17,7 @@ const cardo = Cardo({
 export default function About() {
   return (
     <>
-      <main className="w-[80%] sm:w-[70%] m-auto p-5 sm:p-10 space-y-8 ">
+      <main className="w-[80%] sm:w-[70%] m-auto pt-5 sm:mt-auto sm:p-10 space-y-8 ">
         <div className="w-[100%] flex justify-between ">
           <div className="w-6 h-6 border-t-2 border-l-2 border-[#5B3256]"></div>
           <div className="w-6 h-6 border-t-2 border-r-2 border-[#5B3256]"></div>
