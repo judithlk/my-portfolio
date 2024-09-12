@@ -22,14 +22,14 @@ export default function Wrapper({
   const pathName = usePathname();
 
   const variants = {
-    hidden: { y: 500, visibility: "hidden" },
-    enter: { y: 0, visibility: "visible" },
+    hidden: { opacity: 0, y: 500 },
+    enter: { opcaity: 1, y: 0 },
     exit: { opacity: 0 },
   };
 
   const indexVariants = {
-    hidden: { y: -500, visibility: "hidden" },
-    enter: { y: 0, visibility: "visible" },
+    hidden: { y: -500, opacity: 0 },
+    enter: { y: 0, opacity: 1 },
     exit: { opacity: 0 },
   };
 

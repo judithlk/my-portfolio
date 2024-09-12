@@ -63,10 +63,74 @@ export default function Projects() {
               initial={{ y: 300, visibility: "hidden" }}
               animate={{ y: 0, visibility: "visible" }}
               exit={{ opacity: 0 }}
+              className="space-y-3"
             >
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+                <div className="rounded-lg p-5 border border-[#997A8D] space-y-2">
+                  {/* <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center"> */}
+                  <h2
+                    className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                  >
+                    E-Signing System
+                  </h2>
+                  {/* <RxExternalLink size={20} color="#AB274F" />
+                  </Link> */}
+                  <p
+                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
+                  >
+                    Worked with the team at NASSAT on a system that
+                    enables electronic signing and sharing of documents.{" "}
+                    <b>NextJS. Tailwind CSS. TypeScript. Redux</b>
+                  </p>
+
+                  {/* <Link
+                    href="https://github.com/judithlk/book-finder"
+                    className="block"
+                  >
+                    <h2
+                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                    >
+                      Source code{" "}
+                    </h2>
+                  </Link> */}
+                </div>
+                <div className="rounded-lg p-5 border border-[#997A8D] space-y-2">
+                  {/* <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center"> */}
+                  <h2
+                    className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                  >
+                    Vendor App
+                  </h2>
+                  {/* <RxExternalLink size={20} color="#AB274F" />
+                  </Link> */}
+                  <p
+                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
+                  >
+                    Single-tenant e-commerce app for vendors to manage products
+                    and customer orders, built with the team at NASSAT
+                    <b>NextJS. Tailwind CSS. TypeScript. Redux</b>
+                  </p>
+
+                  {/* <Link
+                    href="https://github.com/judithlk/book-finder"
+                    className="block"
+                  >
+                    <h2
+                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                    >
+                      Source code{" "}
+                    </h2>
+                  </Link> */}
+                </div>
+              </div>
+
+              <h2 className={`text-[1.1rem] sm:text-[1.3rem] text-[#AB274F] ${cardo.className}`}>Personal Projects</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
-                  <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center">
+                  <Link
+                    href="https://judithlk.github.io/book-finder/"
+                    className="flex space-x-1 items-center"
+                  >
                     <h2
                       className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
@@ -93,7 +157,10 @@ export default function Projects() {
                   </Link>
                 </div>
                 <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
-                  <Link href="https://judithlk.github.io/tic-tac-toe-game/" className="flex space-x-1 items-center">
+                  <Link
+                    href="https://judithlk.github.io/tic-tac-toe-game/"
+                    className="flex space-x-1 items-center"
+                  >
                     <h2
                       className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
@@ -104,8 +171,7 @@ export default function Projects() {
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    A simple tic-tac-toe game.{" "}
-                    <b>HTML. CSS. JavaScript</b>
+                    A simple tic-tac-toe game. <b>HTML. CSS. JavaScript</b>
                   </p>
 
                   <Link
@@ -120,7 +186,10 @@ export default function Projects() {
                   </Link>
                 </div>
                 <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
-                  <Link href="https://mars-spotter.vercel.app/" className="flex space-x-1 items-center">
+                  <Link
+                    href="https://mars-spotter.vercel.app/"
+                    className="flex space-x-1 items-center"
+                  >
                     <h2
                       className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
@@ -147,7 +216,10 @@ export default function Projects() {
                   </Link>
                 </div>
                 <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
-                  <Link href="https://judithlk.github.io/uni-life-simulator/" className="flex space-x-1 items-center">
+                  <Link
+                    href="https://judithlk.github.io/uni-life-simulator/"
+                    className="flex space-x-1 items-center"
+                  >
                     <h2
                       className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
@@ -158,8 +230,7 @@ export default function Projects() {
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    How long can you survive university life?{" "}
-                    <b>React.js</b>
+                    How long can you survive university life? <b>React.js</b>
                   </p>
 
                   <Link

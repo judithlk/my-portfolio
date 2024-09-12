@@ -64,18 +64,24 @@ export default function About() {
             
             <div className="space-y-5">
               <h2 className={`text-[1.2rem] sm:text-[1.5rem]  ${cardo.className}`}>Experience</h2>
-              <div className="md:flex md:space-x-6 items-start">
-                <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>2024-</h2>
+              <div className="md:flex md:space-x-10 items-start">
                 <div>
-                  <h2 className={`${cardo.className} text-[1.2rem] text-[#614051]`}>NASSAT</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate non maiores inventore, molestiae est hic architecto corporis, recusandae esse eum, culpa omnis? Iure facilis nemo atque voluptatibus repudiandae in!</p>
+                <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>2024-</h2>
+                {/* <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>present</h2> */}
+                </div>
+                <div>
+                  <h2 className={`${cardo.className} text-[1.2rem] text-[#614051]`}>Frontend Developer - NASCO Satelite (NASSAT)</h2>
+                  <p className={`text-[1rem] smtext-[1.1rem] font-[400] text-[#222] ${tenor.className}`}>Working with the engineering team to build, optimize and maintain highly-functional systems.</p>
                 </div>
               </div>
-              <div className="md:flex md:space-x-6 items-start">
-                <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>2022-2023</h2>
+              <div className="md:flex md:space-x-10 items-start">
+                <div>
+                <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>2022-</h2>
+                <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>2023</h2>
+                </div>
                 <div>
                   <h2 className={`${cardo.className} text-[1.2rem] text-[#614051]`}>Web Developer - Freelance</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate non maiores inventore, molestiae est hic architecto corporis, recusandae esse eum, culpa omnis? Iure facilis nemo atque voluptatibus repudiandae in!</p>
+                  <p className={`text-[1rem] smtext-[1.1rem] font-[400] text-[#222] ${tenor.className}`}>Developed and managed websites for organizations.Developed and managed websites for organizations.</p>
                 </div>
               </div>
               
