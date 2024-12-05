@@ -128,25 +128,65 @@ export default function Projects() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
                   <Link
-                    href="https://judithlk.github.io/book-finder/"
+                    href="https://rivu.vercel.app/"
                     className="flex space-x-1 items-center"
                   >
                     <h2
                       className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
-                      Book Finder App
+                      Rivu
                     </h2>
                     <RxExternalLink size={20} color="#AB274F" />
                   </Link>
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    Search any book and get information on it.{" "}
-                    <b>React.js. CSS. APIs</b>
+                    A fullstack book review web app.{" "}
+                    <b>NextJS. Tailwind CSS. React.js. Express. MongoDB. Node.js. Redux. APIs</b>
                   </p>
 
                   <Link
-                    href="https://github.com/judithlk/book-finder"
+                    href="https://github.com/judithlk/bookreview_frontend"
+                    className="block"
+                  >
+                    <h2
+                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                    >
+                      Frontend source code{" "}
+                    </h2>
+                  </Link>
+                  <Link
+                    href="https://github.com/judithlk/bookreview_backend"
+                    className="block"
+                  >
+                    <h2
+                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                    >
+                      Backend source code{" "}
+                    </h2>
+                  </Link>
+                </div>
+                <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
+                  <Link
+                    href="https://real-estate-landing-seven.vercel.app/"
+                    className="flex space-x-1 items-center"
+                  >
+                    <h2
+                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                    >
+                      Real Estate Landing
+                    </h2>
+                    <RxExternalLink size={20} color="#AB274F" />
+                  </Link>
+                  <p
+                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
+                  >
+                    A minimalist, functional landing page for a real estate agency firm.{" "}
+                    <b>Next.js. Tailwind CSS. Redux.</b>
+                  </p>
+
+                  <Link
+                    href="https://github.com/judithlk/real-estate-landing"
                     className="block"
                   >
                     <h2
@@ -171,7 +211,7 @@ export default function Projects() {
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    A simple tic-tac-toe game. <b>HTML. CSS. JavaScript</b>
+                    A simple tic-tac-toe game with basic frontend tools. <b>HTML. CSS. JavaScript</b>
                   </p>
 
                   <Link

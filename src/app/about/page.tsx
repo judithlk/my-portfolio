@@ -69,7 +69,7 @@ export default function About() {
                 <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>2024</h2>
                 {/* <h2 className={`${cardo.className} text-[1.2rem] text-[#AB274F]`}>present</h2> */}
                 </div>
-                <div>
+                <div> 
                   <h2 className={`${cardo.className} text-[1.2rem] text-[#614051]`}>Frontend Developer - NASCO Satelite (NASSAT)</h2>
                   <p className={`text-[1rem] smtext-[1.1rem] font-[400] text-[#222] ${tenor.className}`}>Worked with the engineering team to build, optimize and maintain highly-functional systems.</p>
                 </div>
@@ -81,7 +81,7 @@ export default function About() {
                 </div>
                 <div>
                   <h2 className={`${cardo.className} text-[1.2rem] text-[#614051]`}>Web Developer - Freelance</h2>
-                  <p className={`text-[1rem] smtext-[1.1rem] font-[400] text-[#222] ${tenor.className}`}>Developed and managed websites for organizations.Developed and managed websites for organizations.</p>
+                  <p className={`text-[1rem] smtext-[1.1rem] font-[400] text-[#222] ${tenor.className}`}>Developed and managed websites for organizations.</p>
                 </div>
               </div>
               
