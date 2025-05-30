@@ -27,7 +27,7 @@ export default function Footer() {
               <Link href="https://x.com/judithiscoding"><FaXTwitter size={22} className="fill-[#5B3256] hover:fill-[#B284BE]" /></Link>
             </div>
             <div className="p-1 ">
-              <Link href="https://www.linkedin.com/in/judith-yusuf-21u14n/"><FaLinkedinIn size={22} className="fill-[#5B3256] hover:fill-[#B284BE]" /></Link>
+              <Link href="https://www.linkedin.com/in/judith-yusuf-b0488a360/"><FaLinkedinIn size={22} className="fill-[#5B3256] hover:fill-[#B284BE]" /></Link>
             </div>
           </div>
           
