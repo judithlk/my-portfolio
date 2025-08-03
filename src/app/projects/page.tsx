@@ -132,7 +132,7 @@ export default function Projects() {
                       {/* Web screenshots – show fully */}
                       <div className="shrink-0">
                         <Image
-                          src="/sm1.png"
+                          src="/sm1.PNG"
                           alt="Smart Waste System screenshot 1"
                           width={500}
                           height={300}
@@ -141,7 +141,7 @@ export default function Projects() {
                       </div>
                       <div className="shrink-0">
                         <Image
-                          src="/sm2.png"
+                          src="/sm2.PNG"
                           alt="Smart Waste System screenshot 2"
                           width={500}
                           height={300}
@@ -237,7 +237,7 @@ export default function Projects() {
                   <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
                     <div className="flex-1">
                       <Image
-                        src="/rivu1.png"
+                        src="/rivu1.PNG"
                         alt="Rivu screenshot 1"
                         layout="responsive"
                         width={500}
@@ -247,7 +247,7 @@ export default function Projects() {
                     </div>
                     <div className="flex-1">
                       <Image
-                        src="/rivu2.png"
+                        src="/rivu2.PNG"
                         alt="Rivu screenshot 2"
                         layout="responsive"
                         width={500}
@@ -302,7 +302,7 @@ export default function Projects() {
                   <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
                     <div className="flex-1">
                       <Image
-                        src="/food1.png"
+                        src="/food1.PNG"
                         alt="Food vendor app screenshot 1"
                         layout="responsive"
                         width={500}
@@ -312,7 +312,7 @@ export default function Projects() {
                     </div>
                     <div className="flex-1">
                       <Image
-                        src="/food2.png"
+                        src="/food2.PNG"
                         alt="Food vendor app screenshot 2"
                         layout="responsive"
                         width={500}
@@ -350,7 +350,7 @@ export default function Projects() {
                   <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
                     <div className="flex-1">
                       <Image
-                        src="/realestate1.png"
+                        src="/realestate1.PNG"
                         alt="Real estate landing page screenshot 1"
                         layout="responsive"
                         width={500}
@@ -360,7 +360,7 @@ export default function Projects() {
                     </div>
                     <div className="flex-1">
                       <Image
-                        src="/realestate2.png"
+                        src="/realestate2.PNG"
                         alt="Real estate landing page screenshot 2"
                         layout="responsive"
                         width={500}
@@ -404,7 +404,7 @@ export default function Projects() {
                   <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
                     <div className="flex-1">
                       <Image
-                        src="/mars1.png"
+                        src="/mars1.PNG"
                         alt="Mars spotter screenshot 1"
                         layout="responsive"
                         width={500}
@@ -414,7 +414,7 @@ export default function Projects() {
                     </div>
                     <div className="flex-1">
                       <Image
-                        src="/mars2.png"
+                        src="/mars2.PNG"
                         alt="Mars spotter screenshot 2"
                         layout="responsive"
                         width={500}
