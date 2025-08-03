@@ -123,7 +123,7 @@ export default function Projects() {
                     waste bins and manage emptying schedules.{" "}
                     <b>
                       NextJS. Tailwind CSS. React.js. Express. MongoDB. Node.js.
-                      Redux. APIs. React Native. IoT and Embedded Systems.
+                      React Native. IoT and Embedded Systems.
                     </b>
                   </p>
 
