@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 
@@ -65,16 +66,16 @@ export default function Projects() {
               exit={{ opacity: 0 }}
               className="space-y-3"
             >
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+              {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
                 <div className="rounded-lg p-5 border border-[#997A8D] space-y-2">
-                  {/* <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center"> */}
+                  <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center">
                   <h2
                     className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                   >
                     E-Signing System
                   </h2>
-                  {/* <RxExternalLink size={20} color="#AB274F" />
-                  </Link> */}
+                  <RxExternalLink size={20} color="#AB274F" />
+                  </Link>
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
@@ -83,7 +84,7 @@ export default function Projects() {
                     <b>NextJS. Tailwind CSS. TypeScript. Redux</b>
                   </p>
 
-                  {/* <Link
+                  <Link
                     href="https://github.com/judithlk/book-finder"
                     className="block"
                   >
@@ -92,41 +93,127 @@ export default function Projects() {
                     >
                       Source code{" "}
                     </h2>
-                  </Link> */}
+                  </Link>
                 </div>
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-2">
-                  {/* <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center"> */}
-                  <h2
-                    className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                
+              </div> */}
+
+              <div className="space-y-4">
+                <p
+                  className={`text-[1rem] sm:text-[1.2rem]  ${cardo.className}`}
+                >
+                  Below are some projects I have worked on, both personal and professional.
+                </p>
+                <div className="rounded-lg p-5 space-y-3 bg-white">
+                  <Link
+                    href="https://smart-waste-web-one.vercel.app/"
+                    className="flex space-x-1 items-center"
                   >
-                    Vendor App
-                  </h2>
-                  {/* <RxExternalLink size={20} color="#AB274F" />
-                  </Link> */}
+                    <h2
+                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                    >
+                      Smart Waste Management System
+                    </h2>
+                    <RxExternalLink size={20} color="#AB274F" />
+                  </Link>
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    Single-tenant e-commerce app for vendors to manage products
-                    and customer orders, built with the team at NASSAT
-                    <b>NextJS. Tailwind CSS. TypeScript. Redux</b>
+                    A fullstack system to track location and fill levels of
+                    waste bins and manage emptying schedules.{" "}
+                    <b>
+                      NextJS. Tailwind CSS. React.js. Express. MongoDB. Node.js.
+                      Redux. APIs. React Native. IoT and Embedded Systems.
+                    </b>
                   </p>
 
-                  {/* <Link
-                    href="https://github.com/judithlk/book-finder"
-                    className="block"
-                  >
-                    <h2
-                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
-                    >
-                      Source code{" "}
-                    </h2>
-                  </Link> */}
-                </div>
-              </div>
+                  <div className="overflow-x-auto">
+                    <div className="flex gap-4 w-max items-end">
+                      {/* Web screenshots – show fully */}
+                      <div className="shrink-0">
+                        <Image
+                          src="/sm1.png"
+                          alt="Smart Waste System screenshot 1"
+                          width={500}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                      <div className="shrink-0">
+                        <Image
+                          src="/sm2.png"
+                          alt="Smart Waste System screenshot 2"
+                          width={500}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
 
-              <h2 className={`text-[1.1rem] sm:text-[1.3rem] text-[#AB274F] ${cardo.className}`}>Personal Projects</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
+                      {/* Mobile screenshots – narrower width to match height */}
+                      <div className="shrink-0">
+                        <Image
+                          src="/sm6.jpeg"
+                          alt="Smart Waste System screenshot 4"
+                          width={160}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                      <div className="shrink-0">
+                        <Image
+                          src="/sm5.jpeg"
+                          alt="Smart Waste System screenshot 5"
+                          width={160}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                      <div className="shrink-0">
+                        <Image
+                          src="/sm4.jpeg"
+                          alt="Smart Waste System screenshot 6"
+                          width={160}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="md:flex md:space-x-8">
+                    <Link
+                      href="https://github.com/judithlk/smart-waste-web"
+                      className="block"
+                    >
+                      <h2
+                        className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                      >
+                        Frontend source code{" "}
+                      </h2>
+                    </Link>
+                    <Link
+                      href="https://github.com/judithlk/smart-waste-backend"
+                      className="block"
+                    >
+                      <h2
+                        className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                      >
+                        Backend source code{" "}
+                      </h2>
+                    </Link>
+                    <Link
+                      href="https://github.com/judithlk/smart-waste-mobile"
+                      className="block"
+                    >
+                      <h2
+                        className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                      >
+                        Mobile App source code{" "}
+                      </h2>
+                    </Link>
+                  </div>
+                </div>
+                <div className="rounded-lg p-5 space-y-3 bg-white">
                   <Link
                     href="https://rivu.vercel.app/"
                     className="flex space-x-1 items-center"
@@ -142,31 +229,106 @@ export default function Projects() {
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
                     A fullstack book review web app.{" "}
-                    <b>NextJS. Tailwind CSS. React.js. Express. MongoDB. Node.js. Redux. APIs</b>
+                    <b>
+                      NextJS. Tailwind CSS. React.js. Express. MongoDB. Node.js.
+                      Redux. APIs
+                    </b>
+                  </p>
+                  <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
+                    <div className="flex-1">
+                      <Image
+                        src="/rivu1.png"
+                        alt="Rivu screenshot 1"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <Image
+                        src="/rivu2.png"
+                        alt="Rivu screenshot 2"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                  </div>
+                  <div className="md:flex md:space-x-8">
+                    <Link
+                      href="https://github.com/judithlk/bookreview_frontend"
+                      className="block"
+                    >
+                      <h2
+                        className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                      >
+                        Frontend source code{" "}
+                      </h2>
+                    </Link>
+                    <Link
+                      href="https://github.com/judithlk/bookreview_backend"
+                      className="block"
+                    >
+                      <h2
+                        className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                      >
+                        Backend source code{" "}
+                      </h2>
+                    </Link>
+                  </div>
+                </div>
+                <div className="rounded-lg p-5 space-y-3 bg-white">
+                  <Link
+                    href="https://judithlk.github.io/book-finder/"
+                    className="flex space-x-1 items-center"
+                  >
+                    <h2
+                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                    >
+                      Food Vendor App
+                    </h2>
+                    <RxExternalLink size={20} color="#AB274F" />
+                  </Link>
+                  <p
+                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
+                  >
+                    Frontend of a single-tenant e-commerce app for vendors to manage products
+                    and customer orders, built with the team at NASSAT.{" "}
+                    <b>NextJS. Tailwind CSS. TypeScript. Redux</b>
                   </p>
 
-                  <Link
-                    href="https://github.com/judithlk/bookreview_frontend"
-                    className="block"
+                  <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
+                    <div className="flex-1">
+                      <Image
+                        src="/food1.png"
+                        alt="Food vendor app screenshot 1"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded border border-gray-200"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <Image
+                        src="/food2.png"
+                        alt="Food vendor app screenshot 2"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                  </div>
+                  <h2
+                    className={`text-[1rem] font-[400] text-[#AB274F]  ${tenor.className}`}
                   >
-                    <h2
-                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
-                    >
-                      Frontend source code{" "}
-                    </h2>
-                  </Link>
-                  <Link
-                    href="https://github.com/judithlk/bookreview_backend"
-                    className="block"
-                  >
-                    <h2
-                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
-                    >
-                      Backend source code{" "}
-                    </h2>
-                  </Link>
+                    Source code is unavailable for public viewing, as it was
+                    built for the organization{" "}
+                  </h2>
                 </div>
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
+                <div className="rounded-lg p-5 space-y-3 bg-white">
                   <Link
                     href="https://real-estate-landing-seven.vercel.app/"
                     className="flex space-x-1 items-center"
@@ -181,9 +343,32 @@ export default function Projects() {
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
-                    A minimalist, functional landing page for a real estate agency firm.{" "}
-                    <b>Next.js. Tailwind CSS. Redux.</b>
+                    A minimalist, functional landing page for a real estate
+                    agency firm. <b>Next.js. Tailwind CSS. Redux.</b>
                   </p>
+
+                  <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
+                    <div className="flex-1">
+                      <Image
+                        src="/realestate1.png"
+                        alt="Real estate landing page screenshot 1"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <Image
+                        src="/realestate2.png"
+                        alt="Real estate landing page screenshot 2"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                  </div>
 
                   <Link
                     href="https://github.com/judithlk/real-estate-landing"
@@ -196,36 +381,8 @@ export default function Projects() {
                     </h2>
                   </Link>
                 </div>
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
-                  <Link
-                    href="https://judithlk.github.io/tic-tac-toe-game/"
-                    className="flex space-x-1 items-center"
-                  >
-                    <h2
-                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
-                    >
-                      Tic Tac Toe
-                    </h2>
-                    <RxExternalLink size={20} color="#AB274F" />
-                  </Link>
-                  <p
-                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
-                  >
-                    A simple tic-tac-toe game with basic frontend tools. <b>HTML. CSS. JavaScript</b>
-                  </p>
 
-                  <Link
-                    href="https://github.com/judithlk/tic-tac-toe-game"
-                    className="block"
-                  >
-                    <h2
-                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
-                    >
-                      Source code{" "}
-                    </h2>
-                  </Link>
-                </div>
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
+                <div className="rounded-lg p-5 space-y-3 bg-white">
                   <Link
                     href="https://mars-spotter.vercel.app/"
                     className="flex space-x-1 items-center"
@@ -244,6 +401,29 @@ export default function Projects() {
                     <b>NextJS. Tailwind CSS. TypeScript</b>
                   </p>
 
+                  <div className="md:p-7 md:flex gap-4 space-y-3 md:space-y-0">
+                    <div className="flex-1">
+                      <Image
+                        src="/mars1.png"
+                        alt="Mars spotter screenshot 1"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <Image
+                        src="/mars2.png"
+                        alt="Mars spotter screenshot 2"
+                        layout="responsive"
+                        width={500}
+                        height={300}
+                        className="rounded"
+                      />
+                    </div>
+                  </div>
+
                   <Link
                     href="https://github.com/judithlk/mars-spotter"
                     className="block"
@@ -255,7 +435,37 @@ export default function Projects() {
                     </h2>
                   </Link>
                 </div>
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
+                {/* <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
+                  <Link
+                    href="https://judithlk.github.io/tic-tac-toe-game/"
+                    className="flex space-x-1 items-center"
+                  >
+                    <h2
+                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                    >
+                      Tic Tac Toe
+                    </h2>
+                    <RxExternalLink size={20} color="#AB274F" />
+                  </Link>
+                  <p
+                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
+                  >
+                    A simple tic-tac-toe game with basic frontend tools.{" "}
+                    <b>HTML. CSS. JavaScript</b>
+                  </p>
+
+                  <Link
+                    href="https://github.com/judithlk/tic-tac-toe-game"
+                    className="block"
+                  >
+                    <h2
+                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                    >
+                      Source code{" "}
+                    </h2>
+                  </Link>
+                </div> */}
+                {/* <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
                   <Link
                     href="https://judithlk.github.io/uni-life-simulator/"
                     className="flex space-x-1 items-center"
@@ -283,7 +493,7 @@ export default function Projects() {
                       Source code{" "}
                     </h2>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           </div>
