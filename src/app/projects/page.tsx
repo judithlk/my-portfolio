@@ -280,17 +280,13 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className="rounded-lg p-5 space-y-3 bg-white">
-                  <Link
-                    href="https://judithlk.github.io/book-finder/"
-                    className="flex space-x-1 items-center"
-                  >
+                 
                     <h2
-                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                      className={`flex space-x-1 items-center text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
                       Food Vendor App
                     </h2>
-                    <RxExternalLink size={20} color="#AB274F" />
-                  </Link>
+                    
                   <p
                     className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
                   >
@@ -334,7 +330,7 @@ export default function Projects() {
                     className="flex space-x-1 items-center"
                   >
                     <h2
-                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                      className={` flex space-x-1 items-centertext-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
                     >
                       Real Estate Landing
                     </h2>
