@@ -66,37 +66,7 @@ export default function Projects() {
               exit={{ opacity: 0 }}
               className="space-y-3"
             >
-              {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-                <div className="rounded-lg p-5 border border-[#997A8D] space-y-2">
-                  <Link href="https://judithlk.github.io/book-finder/" className="flex space-x-1 items-center">
-                  <h2
-                    className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
-                  >
-                    E-Signing System
-                  </h2>
-                  <RxExternalLink size={20} color="#AB274F" />
-                  </Link>
-                  <p
-                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
-                  >
-                    Worked with the team at NASSAT on a system that
-                    enables electronic signing and sharing of documents.{" "}
-                    <b>NextJS. Tailwind CSS. TypeScript. Redux</b>
-                  </p>
-
-                  <Link
-                    href="https://github.com/judithlk/book-finder"
-                    className="block"
-                  >
-                    <h2
-                      className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
-                    >
-                      Source code{" "}
-                    </h2>
-                  </Link>
-                </div>
-                
-              </div> */}
+              
 
               <div className="space-y-4">
                 <p
@@ -104,6 +74,85 @@ export default function Projects() {
                 >
                   Below are some projects I have worked on, both personal and professional.
                 </p>
+                <div className="rounded-lg p-5 space-y-3 bg-white">
+                  <Link
+                    href="https://overanda.vercel.app/"
+                    className="flex space-x-1 items-center"
+                  >
+                    <h2
+                      className={`text-[1.1rem] sm:text-[1.3rem] hover:text-[#AB274F] hover:underline ${cardo.className}`}
+                    >
+                      Event Planners Website
+                    </h2>
+                    <RxExternalLink size={20} color="#AB274F" />
+                  </Link>
+                  <p
+                    className={`text-[0.9rem] font-[400] text-[#222] ${tenor.className}`}
+                  >
+                    A minimalist, frontend heavy, one-page website for an event planning business. Aesthetic, fully responsive, smooth interface.{" "}
+                    <b>
+                      NextJS. Tailwind CSS.
+                    </b>
+                  </p>
+
+                  <div className="overflow-x-auto">
+                    <div className="flex gap-4 w-max items-end">
+                      <div className="shrink-0">
+                        <Image
+                          src="/eventsite1.PNG"
+                          alt="Event website screenshot 1"
+                          width={500}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                      <div className="shrink-0">
+                        <Image
+                          src="/eventsite2.PNG"
+                          alt="Event website screenshot 2"
+                          width={500}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+
+                      
+                      <div className="shrink-0">
+                        <Image
+                          src="/eventsite4.PNG"
+                          alt="Event website screenshot 3"
+                          width={160}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                      <div className="shrink-0">
+                        <Image
+                          src="/eventsite3.PNG"
+                          alt="Event website screenshot 4"
+                          width={160}
+                          height={300}
+                          className="rounded"
+                        />
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div className="md:flex md:space-x-8">
+                    <Link
+                      href="https://github.com/judithlk/overanda"
+                      className="block"
+                    >
+                      <h2
+                        className={`text-[1rem] font-[400] text-[#AB274F] hover:underline ${tenor.className}`}
+                      >
+                        Source code{" "}
+                      </h2>
+                    </Link>
+                    
+                  </div>
+                </div>
                 <div className="rounded-lg p-5 space-y-3 bg-white">
                   <Link
                     href="https://smart-waste-web-one.vercel.app/"
@@ -378,7 +427,7 @@ export default function Projects() {
                   </Link>
                 </div>
 
-                <div className="rounded-lg p-5 space-y-3 bg-white">
+                {/* <div className="rounded-lg p-5 space-y-3 bg-white">
                   <Link
                     href="https://mars-spotter.vercel.app/"
                     className="flex space-x-1 items-center"
@@ -430,7 +479,7 @@ export default function Projects() {
                       Source code{" "}
                     </h2>
                   </Link>
-                </div>
+                </div> */}
                 {/* <div className="rounded-lg p-5 border border-[#997A8D] space-y-3">
                   <Link
                     href="https://judithlk.github.io/tic-tac-toe-game/"
